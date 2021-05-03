@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+table, th, td {
+  border: 1px solid black;
+}
+
+</style>
+</head>
+<body>
+<table style="width:100%">
+  <tr>
+    <th>No</th>
+    <th>Item</th> 
+    <th>Page</th>
+  </tr>
+  
+  <tr>
+    <th>Item</th> 
+    <td>1. Hello
+    <ul>
+         <li>Testing 1</li>
+         <li>Tesring 2</li>
+    </ul>
+  	<br>2. Hello  2</br>
+  	<ul style="list-style-type:circle;">
+ 	   <li>Testing 4</li>
+         <li>Testing 5</li>
+    </ul>
+    </td>
+  
+    <td>Page 1
+    <br>Page 2</br>
+    </td>
+    </tr>
+  
+    <tr>
+    <th>Item 2</th>
+    <td>3.  Hello 3
+    <ol type="i">
+    <li>Testing 6</li>
+    <li>Testing 7</li>
+    <li>Testing 8</li>
+    </ol>
+    </td>
+    <td>Page 3</td>
+    </tr>
+
+</table>
+</body>
+</html>
